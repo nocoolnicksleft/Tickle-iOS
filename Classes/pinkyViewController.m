@@ -1,9 +1,9 @@
-    //
+//
 //  pinkyViewController.m
 //  animation
 //
-//  Created by developer on 22.08.10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Created by Bjoern Seip on 19.09.10.
+//  Copyright 2010 Bjoern Seip. All rights reserved.
 //
 
 #import "pinkyViewController.h"
@@ -33,7 +33,7 @@
 	
 	if (self != nil) {
 		
-		self.tabBarItem = [ [ UITabBarItem alloc] initWithTitle:@"Kitzeln" image:[UIImage imageNamed:@"icon_kitzel.png"] tag:1];
+		self.tabBarItem = [ [ UITabBarItem alloc] initWithTitle:@"Tickle" image:[UIImage imageNamed:@"icon_kitzel.png"] tag:1];
 	
 		animatedImages = [[PinkyImageView alloc] 
 						  initWithFrame:CGRectMake(
@@ -74,8 +74,8 @@
 
     if (interfaceOrientation == UIInterfaceOrientationPortrait) return YES;
     if (interfaceOrientation == UIInterfaceOrientationPortraitUpsideDown) return YES;
-    if (interfaceOrientation == UIInterfaceOrientationLandscapeLeft) return YES;
-    if (interfaceOrientation == UIInterfaceOrientationLandscapeRight) return YES;
+    if (interfaceOrientation == UIInterfaceOrientationLandscapeLeft) return NO;
+    if (interfaceOrientation == UIInterfaceOrientationLandscapeRight) return NO;
 	
 	return NO;
 }

@@ -2,8 +2,8 @@
 //  pinkyImageView.m
 //  animation
 //
-//  Created by developer on 21.08.10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Created by Bjoern Seip on 21.08.2010
+//  Copyright 2010 Bjoern Seip. All rights reserved.
 //
 
 #import "pinkyView.h"

@@ -2,8 +2,8 @@
 //  rotatingTabBarController.h
 //  animation
 //
-//  Created by developer on 25.09.10.
-//  Copyright 2010 TURBO D3 GMBH. All rights reserved.
+//  Created by Bjoern Seip on 25.09.10.
+//  Copyright 2010 Bjoern Seip. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

@@ -2,8 +2,8 @@
 //  flipbook.m
 //  animation
 //
-//  Created by developer on 25.08.10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Created by Bjoern Seip on 25.08.10.
+//  Copyright 2010 Bjoern Seip. All rights reserved.
 //
 
 #import "flipbook.h"

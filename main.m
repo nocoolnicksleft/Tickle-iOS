@@ -2,8 +2,8 @@
 //  main.m
 //  animation
 //
-//  Created by John on 7/11/09.
-//  Copyright 3SixtySoftware.com 2009. All rights reserved.
+//  Created by Bjoern Seip on 19.09.10.
+//  Copyright 2010 Bjoern Seip. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

@@ -2,8 +2,8 @@
 //  stageView.m
 //  animation
 //
-//  Created by developer on 26.08.10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Created by Bjoern Seip on 26.08.10.
+//  Copyright 2010 Bjoern Seip. All rights reserved.
 //
 
 #import "stageView.h"

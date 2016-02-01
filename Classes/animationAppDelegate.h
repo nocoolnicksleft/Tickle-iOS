@@ -2,7 +2,8 @@
 //  animationAppDelegate.h
 //  animation
 //
-// Source code from: http://iPhoneDeveloperTips.com
+//  Created by Bjoern Seip on 19.09.10.
+//  Copyright 2010 Bjoern Seip. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

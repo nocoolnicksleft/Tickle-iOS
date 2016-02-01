@@ -2,8 +2,8 @@
 //  stageViewController.m
 //  animation
 //
-//  Created by developer on 19.09.10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Created by Bjoern Seip on 19.09.10.
+//  Copyright 2010 Bjoern Seip. All rights reserved.
 //
 
 #import "stageViewController.h"
@@ -23,7 +23,7 @@
 	
 	if (self != nil) {
 		
-		self.tabBarItem = [ [ UITabBarItem alloc] initWithTitle:@"Baden" image:[UIImage imageNamed:@"icon_bubbles.png"] tag:2];
+		self.tabBarItem = [ [ UITabBarItem alloc] initWithTitle:@"Bath" image:[UIImage imageNamed:@"icon_bubbles.png"] tag:2];
 
 		UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"badezimmer_blau.png"]];
 		
@@ -40,8 +40,8 @@
 
     if (interfaceOrientation == UIInterfaceOrientationPortrait) return YES;
     if (interfaceOrientation == UIInterfaceOrientationPortraitUpsideDown) return YES;
-    if (interfaceOrientation == UIInterfaceOrientationLandscapeLeft) return YES;
-    if (interfaceOrientation == UIInterfaceOrientationLandscapeRight) return YES;
+    if (interfaceOrientation == UIInterfaceOrientationLandscapeLeft) return NO;
+    if (interfaceOrientation == UIInterfaceOrientationLandscapeRight) return NO;
 	return NO;
 }
 

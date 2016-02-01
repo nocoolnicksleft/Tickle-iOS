@@ -2,7 +2,8 @@
 //  animationAppDelegate.m
 //  animation
 //
-// Source code from: http://iPhoneDeveloperTips.com
+//  Created by Bjoern Seip on 19.09.10.
+//  Copyright 2010 Bjoern Seip. All rights reserved.
 //
 
 #import "animationAppDelegate.h"
@@ -44,6 +45,9 @@
 	[myApp setStatusBarHidden:YES withAnimation:YES];
 	myApp.applicationIconBadgeNumber = 0;
 	
+    UIViewController* rootViewController = [[UIViewController alloc] init];
+    [self.window setRootViewController:rootViewController];
+    
 	startupImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"Default.png"]]];
 	
 	[window addSubview:startupImage];
@@ -55,36 +59,29 @@
 	
 	[window makeKeyAndVisible];
     
-	pinkyViewController1 = [ [ pinkyViewController alloc] init ];
+	[self performSelector:@selector(completeApplicationLaunch) withObject:nil afterDelay:0];
+
+}
+
+
+
+- (void)completeApplicationLaunch {
+
+    pinkyViewController1 = [ [ pinkyViewController alloc] init ];
     stageViewController1 = [ [ stageViewController alloc] init ];
     
-    
-    //	sidescrollerViewController1 = [ [ sidescrollerViewController alloc] init];
     
     NSMutableArray * viewControllers = [ [ NSMutableArray alloc] init];
     [viewControllers addObject:pinkyViewController1];
     [viewControllers addObject:stageViewController1];
-    //	[viewControllers addObject:sidescrollerViewController1];
+
     
     tabbarController = [ [ rotatingTabBarController alloc] init];
     tabbarController.viewControllers = viewControllers;
     tabbarController.delegate = self;
     
-    
-    
-    
     self.window.rootViewController = tabbarController;
-	
-	[self performSelector:@selector(completeApplicationLaunch) withObject:nil afterDelay:0];
-
-	
-}
-
-- (void)completeApplicationLaunch {
-	
-
-    
-	
+ 	
 	[activityIndicator stopAnimating];
 	[activityIndicator removeFromSuperview];
 	[activityIndicator release];

@@ -854,6 +854,7 @@
 		8B5F9AC51225B740000733B0 /* bigpinky_kitzel_3_40.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B5F9A651225B740000733B0 /* bigpinky_kitzel_3_40.png */; };
 		8B5F9AC61225B740000733B0 /* bigpinky_kitzel_3_41.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B5F9A661225B740000733B0 /* bigpinky_kitzel_3_41.png */; };
 		8B5F9AC71225B740000733B0 /* bigpinky_kitzel_3_42.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B5F9A671225B740000733B0 /* bigpinky_kitzel_3_42.png */; };
+		8B6B225C1C600C3A005BE127 /* Screenshots in Resources */ = {isa = PBXBuildFile; fileRef = 8B6B225B1C600C3A005BE127 /* Screenshots */; };
 		8B7A58111229A96200342651 /* flipbookAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7A58101229A96200342651 /* flipbookAnimation.m */; };
 		8B7A58141229A97A00342651 /* flipbookAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7A58131229A97A00342651 /* flipbookAction.m */; };
 		8B7A58171229A99200342651 /* flipbookFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7A58161229A99200342651 /* flipbookFrame.m */; };
@@ -942,7 +943,6 @@
 		8BC8D53E12469916004C39FD /* big-button-hot.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BC8D53912469916004C39FD /* big-button-hot.png */; };
 		8BC8D53F12469916004C39FD /* big-button-pinky.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BC8D53A12469916004C39FD /* big-button-pinky.png */; };
 		8BC8D54012469916004C39FD /* big-button-schaum.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BC8D53B12469916004C39FD /* big-button-schaum.png */; };
-		8BFFC5471C5E9DB6004C89B8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BFFC5461C5E9DB6004C89B8 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1798,6 +1798,9 @@
 		8B5F9A651225B740000733B0 /* bigpinky_kitzel_3_40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bigpinky_kitzel_3_40.png; path = Images/Kitzel/bigpinky_kitzel_3_40.png; sourceTree = "<group>"; };
 		8B5F9A661225B740000733B0 /* bigpinky_kitzel_3_41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bigpinky_kitzel_3_41.png; path = Images/Kitzel/bigpinky_kitzel_3_41.png; sourceTree = "<group>"; };
 		8B5F9A671225B740000733B0 /* bigpinky_kitzel_3_42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bigpinky_kitzel_3_42.png; path = Images/Kitzel/bigpinky_kitzel_3_42.png; sourceTree = "<group>"; };
+		8B6B224C1C5FCF16005BE127 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8B6B224E1C5FCF3E005BE127 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		8B6B225B1C600C3A005BE127 /* Screenshots */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Screenshots; sourceTree = "<group>"; };
 		8B7A580F1229A96200342651 /* flipbookAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flipbookAnimation.h; sourceTree = "<group>"; };
 		8B7A58101229A96200342651 /* flipbookAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = flipbookAnimation.m; sourceTree = "<group>"; };
 		8B7A58121229A97A00342651 /* flipbookAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flipbookAction.h; sourceTree = "<group>"; };
@@ -1896,7 +1899,6 @@
 		8BC8D53912469916004C39FD /* big-button-hot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "big-button-hot.png"; sourceTree = "<group>"; };
 		8BC8D53A12469916004C39FD /* big-button-pinky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "big-button-pinky.png"; sourceTree = "<group>"; };
 		8BC8D53B12469916004C39FD /* big-button-schaum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "big-button-schaum.png"; sourceTree = "<group>"; };
-		8BFFC5461C5E9DB6004C89B8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* animation-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "animation-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -1960,7 +1962,9 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				8BFFC5461C5E9DB6004C89B8 /* Default-568h@2x.png */,
+				8B6B225B1C600C3A005BE127 /* Screenshots */,
+				8B6B224E1C5FCF3E005BE127 /* LICENSE.txt */,
+				8B6B224C1C5FCF16005BE127 /* README.md */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -3534,7 +3538,6 @@
 				8B5F991C1225B72D000733B0 /* bigpinky_bubbles_jumpout_16.png in Resources */,
 				8B5F991D1225B72D000733B0 /* bigpinky_bubbles_jumpout_17.png in Resources */,
 				8B5F991E1225B72D000733B0 /* bigpinky_bubbles_jumpout_18.png in Resources */,
-				8BFFC5471C5E9DB6004C89B8 /* Default-568h@2x.png in Resources */,
 				8B5F991F1225B72D000733B0 /* bigpinky_bubbles_jumpout_19.png in Resources */,
 				8B5F99201225B72D000733B0 /* bigpinky_bubbles_jumpout_20.png in Resources */,
 				8B5F99211225B72D000733B0 /* bigpinky_bubbles_jumpout_21.png in Resources */,
@@ -3698,6 +3701,7 @@
 				8B5F99BF1225B72D000733B0 /* bigpinky_bubbles_towel_61.png in Resources */,
 				8B5F99C01225B72D000733B0 /* bigpinky_bubbles_towel_62.png in Resources */,
 				8B5F99C11225B72D000733B0 /* bigpinky_bubbles_towel_63.png in Resources */,
+				8B6B225C1C600C3A005BE127 /* Screenshots in Resources */,
 				8B5F99C21225B72D000733B0 /* bigpinky_bubbles_towel_64.png in Resources */,
 				8B5F99C31225B72D000733B0 /* bigpinky_bubbles_towel_65.png in Resources */,
 				8B5F99C41225B72D000733B0 /* bigpinky_bubbles_towelback_0.png in Resources */,
